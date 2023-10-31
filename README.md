@@ -1,14 +1,20 @@
-# Svelte + Vite
+# Exercise
 
-This template should help get you started developing with Svelte in Vite.
+This project is a place for me to get some hands-on experience with Svelte. I have worked in several frameworks, feel like now is the time to try out Svelte. Instead of building a Todo list app, I have decided to try building basically a workout tracking app.
+
+## Desired features
+
+### Define workouts
+
+I would like to be able to have groups of exercises, e.g. "Workout A", "Workout B" as described at [aworkoutroutine](https://www.aworkoutroutine.com/the-beginner-weight-training-workout-routine/).
+
+### Calendars
+
+I would like to be able to remember which workout I did last time. e.g. if I do "Workout A" one day, I would like the next time I go to workout "Workout B" shows up. I would also rest days baked in.
 
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
-
-## Need an official Svelte framework?
-
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
 ## Technical considerations
 
