@@ -3,8 +3,12 @@
   const increment = () => {
     count += 1
   }
+  const handleKeyDown = (event) => {
+    if (["Enter", "Space"].includes(event?.code)) return increment();
+  }
 </script>
 
-<button on:click={increment}>
-  count is {count}
-</button>
+<sl-button variant="primary" pill="pill" size="medium" role="button" tabindex="0" on:click={increment} on:keydown={handleKeyDown}>
+  <sl-icon slot="prefix" name="plus-circle"></sl-icon>
+  {count}
+</sl-button>
