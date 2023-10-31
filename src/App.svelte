@@ -1,6 +1,7 @@
 <script>
   import Counter from './lib/Counter.svelte'
   import Exercise from './lib/Exercise.svelte';
+  import ExerciseGroup from './lib/ExerciseGroup.svelte';
   import Weight from './lib/Weight.svelte'
 </script>
 
@@ -9,5 +10,8 @@
 <sl-card>
   <Counter />
   <Weight />
-  <Exercise type="Squats" />
+  <ExerciseGroup>
+    <Exercise type="Squats" />
+    <Exercise type="Bench press" />
+  </ExerciseGroup>
 </sl-card>
